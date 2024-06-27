@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(49, 49, 117);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.opcoes {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+button {
+  font-size: 1.6rem;
+  border: none;
+  height: 3.2rem;
+  width: 16rem;
+  margin: 0.5rem;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.hr {
+  width: 30rem;
+  color: black;
+}
+
+.container {
+  width: 30rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(99, 0, 192);
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.inner-element {
+  font-size: 1.6rem;
+  background-color: rgb(242, 0, 255);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  text-align: center;
+  border: none;
+}
+
+.inner-element input {
+  width: 80%;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.inner-element button {
+  font-size: 1.2rem;
+  background-color: rgb(0, 128, 128);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.inner-element button:hover {
+  background-color: rgb(0, 100, 100);
+}
+
+.new-container {
+  width: 30rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(50, 205, 50);
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.close-button {
+  width: 3rem;
+  margin-left: 28rem;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: red;
+}
+
+.flashcards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
