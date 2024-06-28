@@ -1,1 +1,1 @@
-JavaScript test using only DOMN and CSS
+JavaScript test using only DOM and CSS
